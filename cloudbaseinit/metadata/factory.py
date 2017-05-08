@@ -22,9 +22,9 @@ opts = [
     cfg.ListOpt(
         'metadata_services',
         default=[
-            'cloudbaseinit.metadata.services.httpservice.HttpService',
+            #'cloudbaseinit.metadata.services.httpservice.HttpService',
             #'cloudbaseinit.metadata.services.configdrive.ConfigDriveService',
-            #'cloudbaseinit.metadata.services.ec2service.EC2Service',
+            'cloudbaseinit.metadata.services.ec2service.EC2Service',
             #'cloudbaseinit.metadata.services.maasservice.MaaSHttpService',
             #'cloudbaseinit.metadata.services.cloudstack.CloudStack',
             #'cloudbaseinit.metadata.services'
